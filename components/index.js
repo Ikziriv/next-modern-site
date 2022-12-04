@@ -1,7 +1,10 @@
 import Navbar from './Navbar';
+import { TypingText, TitleText } from './CustomText';
 import Footer from './Footer';
 
 export {
-  Navbar,
-  Footer,
+    Navbar,
+    TypingText,
+    TitleText,
+    Footer,
 };

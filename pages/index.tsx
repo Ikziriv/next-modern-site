@@ -7,11 +7,11 @@ const Home = () => (
     <Hero />
     <About />
     <Explore />
-    <GetStarted />
+    {/* <GetStarted />
     <WhatsNew />
     <World />
     <Insight />
-    <Feedback />
+    <Feedback /> */}
     <Footer />
   </div>
 );

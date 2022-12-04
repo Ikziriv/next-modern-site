@@ -1,22 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Eudoxus Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-gradient {
+    background: linear-gradient( 97.86deg, #a509ff 0%, #34acc7 53.65%, #a134c7 100%);
+}
+
+.gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+    background: #7aebfb;
+    filter: blur(190px);
+}
+
+.texthead-about {
+    content: "";
+    position: absolute;
+    left: calc(100% + 0.5em em);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1.25em;
+    height: 3px;
+    background-color: #424242;
 }
 
 .footer-gradient {
-  position: absolute;
-  width: 500px;
-  height: 100px;
-  left: 37%;
-  bottom: 0;
-
-  background: #c4c4c4;
-  filter: blur(150px);
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 37%;
+    bottom: 0;
+    background: #c4c4c4;
+    filter: blur(150px);
 }
